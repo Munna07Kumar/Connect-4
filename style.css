@@ -1,0 +1,67 @@
+body{
+    margin : 0;
+    font-family :system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(166, 175, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    text-align: center;
+}
+
+
+
+#player{
+    margin-bottom: 20px;
+    color : rgb(37, 36, 36);
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(7,70px);
+    gap: 8px;
+    background:rgb(37, 36, 36);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cell{
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.player1{
+    background: orangered;
+}
+.player2{
+    background: greenyellow;
+}
+#reset{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid rgb(37, 36, 36);
+    background:rgb(88, 123, 18);
+    color: rgb(37, 36, 36);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#reset:hover{
+    background-color: rgb(37, 36, 36);
+    color: palevioletred;
+}
